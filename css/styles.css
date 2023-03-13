@@ -1,3 +1,121 @@
 /***** TAG SELECTOR *****/
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height : 100vh;
+    background-color: #0D1A2D;
+    color: #778CAE;
+    font-family: 'Outfit', sans-serif;
+}
+
+hr {
+    border: none;
+    border-top: 0.5px solid #778CAE;
+    margin: 1.5rem 0;
+    border-radius: 1rem;
+    width: 18rem;
+}
+
+footer {
+    margin-top: 2rem;
+}
+
 /***** CLASS SELECTOR *****/
+
+.card {
+    width: 18rem;
+    height: 32rem;
+    padding: 1.2rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: #15273F;
+}
+
+.nft-img img {
+    width: 18rem;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+.nft-img img:hover {
+    opacity: 0.5;
+    background-color: #32BAC4;
+}
+
+.nft-name {
+    color: white;
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+    letter-spacing: 0.04rem;
+}
+
+.nft-name:hover {
+    color: #32BAC4;
+}
+
+.nft-desc {
+    letter-spacing: 0.02rem;
+    font-weight: 200;
+    line-height: 1.5rem;
+}
+
+.ntf-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
+
+.nft-info-price {
+    color: #32BAC4;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.nft-info-date {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.nft-creator {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 200;
+}
+
+.nft-creator-name {
+    color: white;
+}
+
+.nft-creator-name:hover {
+    color: #32BAC4
+}
+
+.nft-creator img {
+    width: 1.5rem;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+/*
+    font-family: 'Outfit', sans-serif;
+*/
